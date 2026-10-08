@@ -28,7 +28,6 @@ func main() {
 	}
 
 	fmt.Println("Status code:", resp.StatusCode)
-	fmt.Println("Content-Type:",
-		resp.Header.Get("Content-Type"))
+	fmt.Println("Content-Type:", resp.Header.Get("Content-Type"))
 	fmt.Println("Body:", string(body))
 }
